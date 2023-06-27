@@ -6,7 +6,6 @@ class Square:
     """represent a square class"""
     def __init__(self, size=0):
         try:
-            self.__size = size
             if not isinstance(size, int):
                 raise TypeError
             elif size < 0:
