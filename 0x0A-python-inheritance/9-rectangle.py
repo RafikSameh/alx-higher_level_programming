@@ -19,4 +19,4 @@ class Rectangle(BaseGeometry):
 
     def __str__(self):
         """return rectangle description"""
-        return "[{}] {}/{}".format(str(self.__class__.__name__, self.__width, self.__height)
+        return "[{}] {}/{}".format(str(self.__class__.__name__), self.__width, self.__height)
